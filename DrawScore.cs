@@ -30,6 +30,7 @@ public class DrawScore : MonoBehaviour
         }
         else
         {
+            Score.score = 0;
             SceneManager.LoadScene("Title");
         }
     }
